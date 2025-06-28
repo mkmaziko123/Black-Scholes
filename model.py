@@ -37,4 +37,4 @@ def montecarloption(StockPrice,NumTrials):
         })
 
         df = pd.DataFrame(results)
-        return d
+        return df
